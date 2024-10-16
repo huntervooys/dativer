@@ -1,13 +1,16 @@
 Package: dativer
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tools For Working With Dative (Linguistic Database)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Hunter Vooys
+Maintainer: Hunter Vooys <hunter.vooys@mail.mcgill.ca>
+Description: Conveinience functions for working with data exported from Dative and using or exporting that data for further linguistic analysis.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
   stringr
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
