@@ -9,7 +9,11 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
-  stringr
+    dplyr,
+    janitor,
+    purrr,
+    readr,
+    stringr
 RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0)
